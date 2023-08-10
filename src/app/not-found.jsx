@@ -6,7 +6,7 @@ const NotFound = () => {
 
   return (
     <div className=".screen flex flex-col items-center justify-center text-white h-screen">
-      Page isn't Found......
+      Page isn&apos;t Found......
       <button
         className=" text-blue-500 underline cursor-pointer"
         onClick={() => route.push("/")}

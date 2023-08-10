@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  favicon: "/minhajul.png",
-};
+const nextConfig = {};
 
 module.exports = nextConfig;

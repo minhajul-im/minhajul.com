@@ -12,11 +12,12 @@ import {
   faAddressBook,
   faGauge,
 } from "@fortawesome/free-solid-svg-icons";
+import {faFacebook, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 
 const links = [
   {
     id: 1,
-    name: faLaptop,
+    name: faLinkedinIn,
     link: "https://www.linkedin.com/in/minhajul-im/",
   },
   {
@@ -31,7 +32,7 @@ const links = [
   },
   {
     id: 4,
-    name: faAddressBook,
+    name: faFacebook,
     link: "https://www.facebook.com/minhajul.im",
   },
   {
