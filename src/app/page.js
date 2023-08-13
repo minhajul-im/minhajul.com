@@ -4,7 +4,7 @@ import Title from "./components/title/page";
 
 export default function Home() {
   return (
-    <div class="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen">
       <Title />
       <Img />
       <Icon />
