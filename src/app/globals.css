@@ -26,7 +26,8 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.screen{
+/* error class name */
+.screen {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 78, 2, 120;
   --background-end-rgb: 9, 17, 110;

@@ -10,9 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/logo-m.png" sizes="any" />
-      <body className="my-class" suppressHydrationWarning={true}>
-        {children}
-      </body>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   );
 }

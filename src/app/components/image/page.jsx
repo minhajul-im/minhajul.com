@@ -3,7 +3,7 @@ import Image from "next/image";
 const Img = () => {
   return (
     <Image
-      className="rounded-full mb-6"
+      className="rounded-full mb-6 cursor-grabbing"
       alt="minhajul"
       src={"/minhajul.png"}
       width={200}
