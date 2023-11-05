@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 
 const Error = () => {
-  const route = useRouter;
+  const route = useRouter();
 
   return (
     <div className=".screen flex flex-col items-center justify-center text-white h-screen">

@@ -1,17 +1,17 @@
 const Title = () => {
   return (
-    <div className="text-center">
+    <section className="text-center">
       <h1 className="text-3xl font-serif font-medium capitalize space-x-2 mb-4 pb-2">
-        Heyoo, How&apos;s it going?
+        Heyoooo, How&apos;s it going?
       </h1>
       <h1
         className="text-5xl font-bold font-mono mb-8
        pb-2 select-none cursor-wait"
       >
         Hey, I&apos;m Minhajul Islam <br />
-        <span className="text-cyan-400"> (MinhaJ)</span>
+        <span className="text-cyan-600"> (MinhaJ)</span>
       </h1>
-    </div>
+    </section>
   );
 };
 

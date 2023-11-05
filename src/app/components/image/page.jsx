@@ -4,7 +4,7 @@ const Img = () => {
   return (
     <Image
       className="rounded-full mb-6 cursor-grabbing"
-      alt="minhajul"
+      alt="minhajul islam"
       src={"/minhajul.png"}
       width={200}
       height={200}
